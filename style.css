@@ -67,7 +67,6 @@ main{
     transform: translateX(150px);
     transition: opacity 2.5s cubic-bezier(0,-0.24, 0, 0.99), transform 2.5s cubic-bezier(0,-0.24, 0, 0.99);
     margin: 0px;
-
 }
 
 .transition_header.animate{
@@ -120,9 +119,17 @@ footer{
 }
 @media screen and (max-width:600px) {
 
+    p{
+        font-size: medium;
+    }
+    header{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
     nav{
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .transition_header{
         font-size: 80px;
