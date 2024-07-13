@@ -46,6 +46,10 @@ main{
     bottom: 250px;
 }
 
+.slide{
+    overflow-y: auto;
+}
+
 .transition{
     display: flex;
     justify-content: space-around;
