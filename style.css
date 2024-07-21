@@ -133,6 +133,11 @@ footer{
         padding-left: 0px;
         padding-right: 0px;
     }
+    .transition{
+        display: flex;
+        overflow: hidden;
+        align-items: flex-end;
+    }
     .transition_header{
         font-size: 80px;
         position: relative;
