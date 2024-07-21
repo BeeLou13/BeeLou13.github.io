@@ -24,7 +24,7 @@ nav{
     border-bottom: #8b962e solid 2px;
 }
 .icon{
-    margin: 0px 20px;
+    margin: 0px 15px;
     color: white;
     text-decoration: none;
 }
@@ -51,8 +51,7 @@ main{
 }
 
 .transition{
-    display: flex;
-    justify-content: space-around;
+    display: grid;
     overflow: hidden;
     align-items: flex-end;
 }
@@ -80,8 +79,7 @@ main{
 #X_img{
     height: 100px;
     width: 100px;
-    position: relative;
-    left: 413px;
+
 }
 section{
     width: 90%;
