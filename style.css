@@ -12,7 +12,7 @@ nav{
     padding-left: 70px;
     padding-right: 70px;
     margin: 0 auto;
-    color: white;
+    color: #133201;
     background-color: #aecf39;
     z-index: 5;
     position: sticky;
@@ -88,6 +88,7 @@ section{
 }
 .projects{
     border: #94a434 solid 2px;
+    color: #133201;
     height: 200px;
     width: 100%;
     background-color: #f0facd;
@@ -133,15 +134,11 @@ footer{
         padding-left: 0px;
         padding-right: 0px;
     }
-    .transition{
-        display: flex;
-        overflow: hidden;
-        align-items: flex-end;
+    .transition_line{
+        margin-left: 200px;
     }
     .transition_header{
         font-size: 80px;
-        position: relative;
-        right: 200px;
     }
     #aboutMe{
         font-size: 70px;
